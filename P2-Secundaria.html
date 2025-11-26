@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accesibilidad</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="P2-home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header / menú -->
+  <header style="background:lightgray; padding:15px; display:flex; align-items:center; justify-content:space-between;">
+    <div style="display:flex; align-items:center; gap:10px;">
+      <div style="font-size:24px; font-weight:bold; text-shadow:2px 2px 4px rgba(0,0,0,0.3);">A</div>
+      <span style="font-size:18px; font-weight:600; color:white;">Accesibilidad Web</span>
+    </div>
+    <nav>
+      <a href="P2-Home.html" style="margin:0 10px; color:red; text-decoration:none; font-weight:600;">Inicio</a>
+      <a href="P2-Secundaria.html" style="margin:0 10px; color:red; text-decoration:none; font-weight:600;">Accesibilidad</a>
+      <a href="P2-Home.html#Contacto" style="margin:0 10px; color:red; text-decoration:none; font-weight:600;">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <section class="accesibilidad-section py-5 container">
+    <h2 class="text-center fw-bold mb-5">Accesibilidad Web: Crear una Internet para Todos</h2>
+
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 mb-4">
+        <h3 class="fw-bold mb-3">¿Por qué es esencial?</h3>
+        <p>La accesibilidad permite que cualquier persona pueda navegar, comprender y usar la web sin limitaciones.</p>
+        <p>También mejora experiencia, visibilidad y profesionalismo de la web.</p>
+
+        <ul class="lista-accesibilidad">
+          <li>✔ Estructura semántica clara</li>
+          <li>✔ Colores con buen contraste</li>
+          <li>✔ Navegación por teclado</li>
+          <li>✔ Alternativas textuales en imágenes</li>
+          <li>✔ Formularios accesibles</li>
+        </ul>
+
+        <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" class="btn-accesibilidad fw-bold mt-3">Ver pautas WCAG</a>
+      </div>
+    </div>
+
+    <div class="row tarjetas-accesibilidad">
+      <div class="col-md-4 mb-4">
+        <div class="tarjeta shadow-sm p-3 rounded">
+          <h4 class="fw-bold mb-2">Accesibilidad Visual</h4>
+          <p>Colores y tipografías optimizadas para la lectura.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="tarjeta shadow-sm p-3 rounded">
+          <h4 class="fw-bold mb-2">Accesibilidad Auditiva</h4>
+          <p>Subtítulos, transcripciones y contenido alternativo.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="tarjeta shadow-sm p-3 rounded">
+          <h4 class="fw-bold mb-2">Accesibilidad Motriz</h4>
+          <p>Navegación por teclado y botones grandes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer con correo e iconos -->
+  <footer class="text-center p-3 bg-dark text-white mt-5">
+    <p>Correo: contacto@accesibilidadweb.com</p>
+    <a href="https://twitter.com" target="_blank" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+    <a href="https://wa.me/123456789" target="_blank" class="text-white mx-2"><i class="fab fa-whatsapp"></i></a>
+    <p class="mt-2">© 2025 Accesibilidad Web</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
